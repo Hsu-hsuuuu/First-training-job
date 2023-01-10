@@ -549,10 +549,10 @@ ul li:nth-child(4) {
     }
 
     .footer-column-link:hover::after  {
-        width: 90%;
+        width: 100%;
     }
     .footer-column-link:hover:focus {
-        width: 90%;
+        width: 100%;
     }
     
 }
