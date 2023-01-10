@@ -1,7 +1,7 @@
 @font-face {
     font-family: InterBlack;
-    src: url("../../Hsu-hsuuuu/F16_Panel Font.ttf") format('truetype');;
-}
+    src: url('../../Hsu-hsuuuu/fonts/Inter-Black.ttf') format('truetype');;
+} 
 
 @font-face {
     font-family: InterBold;
