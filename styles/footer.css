@@ -548,6 +548,31 @@ ul li:nth-child(4) {
         text-align: center;
     }
 
+    .footer-column-second > .name-link::after {
+        content: '';
+        display: block;
+        width: 0px;
+        padding-top: 3px;
+        border-bottom: 2px solid var(--color-white);
+        transition: width 0.4s ease-in-out;
+    }
+    
+    .footer-column-second > .name-link:hover::after  {
+        width: 100%;
+    }
+    .footer-column-second > .name-link:hover:focus {
+        width: 100%;
+    }
+
+    .footer-column-link::after {
+        content: '';
+        display: block;
+        width: 0px;
+        padding-top: 3px;
+        border-bottom: 1px solid var(--color-white);
+        transition: width 0.4s ease-in-out;
+    }
+
     .footer-column-link:hover::after  {
         width: 100%;
     }
