@@ -110,6 +110,10 @@
     color: var(--color-black);
 }
 
+.action-text-br-six {
+    display: none;
+}
+
 .action-button {
     position: relative;
     text-align: center;
@@ -426,6 +430,10 @@
     .action-text {
         min-width: 327px;
         height: 56px;
+    }
+
+    .action-text-br-six {
+    display: inherit;
     }
 
     .info-action {
